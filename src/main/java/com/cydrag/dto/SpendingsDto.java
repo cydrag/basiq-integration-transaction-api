@@ -1,0 +1,30 @@
+package com.cydrag.dto;
+
+public class SpendingsDto {
+    private String code;
+    private float average;
+
+    public SpendingsDto() {
+    }
+
+    public SpendingsDto(String code, float average) {
+        this.code = code;
+        this.average = average;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public float getAverage() {
+        return average;
+    }
+
+    public void setAverage(float average) {
+        this.average = average;
+    }
+}

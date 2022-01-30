@@ -1,0 +1,3 @@
+client:
+  basiq:
+    api-key: ${BASIQ_API_KEY}
